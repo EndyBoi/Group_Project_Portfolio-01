@@ -1,6 +1,5 @@
 /* COMMON STYLES 
   -------------------------------- */
-
 /* LAYOUT */
 /* {position:absolute;} */
 /* {position:relative;} */
@@ -40,6 +39,21 @@
 /* {transition: all 0.3s ease-in-out;} */
 
 html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
 }
 
 /* TOP NAV */
