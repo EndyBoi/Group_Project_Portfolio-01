@@ -1,9 +1,16 @@
-function myFunction() {
-  var navBar = document.getElementById("main-nav")
+$(document).ready(function () {
+  var hamBurg = $("#hamburger")
+  var topnav = $(".nav-collapse")
+  $(hamBurg).on("click", mblMenu)
 
-  if (navBar.className === "top-nav") {
-    navBar.className += "responsive"
-  } else {
-    navBar.className = "top-nav"
+  function mblMenu() {
+    if ($(hamBurg).data("ishidden") === false) {
+      $(topnav).slideToggle()
+      $(hamBurg).data("ishidden", true)
+    } else {
+      $(hamBurg).data("ishidden", false)
+      $(topnav).slideToggle()
+      $(topnav).toggleClass("open")
+    }
   }
-}
+})
