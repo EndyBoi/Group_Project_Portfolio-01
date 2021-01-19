@@ -1,6 +1,3 @@
-@font-face {
-}
-
 /* COMMON STYLES 
   -------------------------------- */
 
@@ -42,115 +39,62 @@
 /* {border-radius: 0px;} */
 /* {transition: all 0.3s ease-in-out;} */
 
-/* BASE 
-	-------------------------------- */
-body {
-}
-::selection,
-::moz-selection {
-}
-.wrapper {
+html {
 }
 
-/* HEADER
-	-------------------------------- */
-.site-header {
+/* TOP NAV */
+#main-nav {
 }
 
-/* FOOTER
-	-------------------------------- */
-.site-footer {
+.top-nav {
 }
 
-/* CONTENT
-	-------------------------------- */
-.site-content {
+/* HERO SPLASH */
+#header {
 }
 
-/* LAYOUT */
-
-/* BASIC ELEMENTS */
-div {
-}
-p {
-}
-blockquote {
-}
-code {
-}
-img {
-}
-a {
-}
-em {
-}
-strong {
-}
-pre {
+.left-div {
 }
 
-/* HEADINGS */
-h1 {
-}
-h2 {
-}
-h3 {
-}
-h4 {
-}
-h5 {
-}
-h6 {
+.right-div {
 }
 
-/* FORMS & BUTTONS */
-form {
-}
-fieldset {
-}
-legend {
-}
-label {
-}
-input {
-}
-textarea {
-}
-select {
+/* WORK */
+#work {
 }
 
-/* TABLES */
-table {
-}
-caption {
-}
-tr {
-}
-thead {
-}
-th {
-}
-tbody {
-}
-td {
-}
-tfoot {
+.work-cotainer {
 }
 
-/* LISTS */
-dl {
-}
-dt {
-}
-dd {
-}
-ol {
-}
-ol li {
-}
-ul {
-}
-ul li {
+.work-01 {
 }
 
-/* … */
+.work-02 {
+}
+
+.work-03 {
+}
+
+/* ABOUT */
+#about {
+}
+
+.about-text {
+}
+
+/* CONTACT */
+#contact {
+}
+
+.bot {
+}
+
+.bot-nav {
+}
+
+/* FOOTER */
+#footer {
+}
+
+.copyright {
+}
