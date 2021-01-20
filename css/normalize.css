@@ -21,14 +21,19 @@ body {
 img {
   border-style: none;
   max-width: 100%;
+  height: 125px;
 }
-.flex-grid img {
+.work-image {
+  flex: 100%;
+  padding: 5px;
+}
+/* .flex-grid img {
   width: 100%;
-}
+} */
 
 a {
   background-color: transparent;
-}
+} */
 
 /* TOP NAV */
 #main-nav {
@@ -65,7 +70,7 @@ a {
 .right-div {
 }
 
-/* .nav-collapse ul {
+ /* .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -75,7 +80,7 @@ a {
 .nav-collapse li {
   width: 100%;
   display: block;
-}
+}  */
 
 .nav-collapse, .nav-collapse * {
   -webkit-box-sizing: border-box;
@@ -144,16 +149,19 @@ a {
   justify-content: center;
 } */
 #work {
-  display: flex;
-  justify-content: center;
-  height: 525px;
+  
+  height: 625px;
+  max-width: 800px;
+  margin: auto;
 }
 .work-cotainer {
+  height: 155px;
+  display: flex;
+  justify-content: center;
 }
 .work-01 {
   background: white;
-  height: 150px;
-  width: 400px;
+  height: 155px;
 }
 .work-01 h2 {
   color: black;
@@ -164,7 +172,8 @@ a {
 }
 .work-02 {
   background: rgb(6, 6, 180);
-  height: 150px;
+  display: flex;
+  height: 155px;
 }
 .work-02 h2 {
   color: white;
@@ -175,7 +184,8 @@ a {
 }
 .work-03 {
   background: rgb(180, 180, 207);
-  height: 150px;
+  height: 155px;
+  
 }
 .work-03 h2 {
   color: white;
@@ -235,36 +245,34 @@ a {
 /* ------------------------------------------
 LAYOUT
 --------------------------------------------- */
-.bdy {
+/* .bdy {
   height: 100%;
   background-image: url("../images/circles-light.png");
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-}
-.container {
+} */
+/* .container {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   margin: 0 auto;
   padding: 0 2rem;
-}
-.navFlex {
+} */
+/* .navFlex {
   display: flex;
   justify-content: space-between;
-}
-.row {
+} */
+/* .row {
   width: 100%;
-}
-.site-main {
+} */
+/* .site-main {
   display: flex;
   flex-direction: row;
-}
-.flex-grid {
+} */
+/* .flex-grid {
   display: flex;
   flex-direction: row;
-}
-img {
-  width: 90%;
-}
+} */
+/* 
 .py-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -313,22 +321,22 @@ hr {
 }
 .w-50 {
   width: 50%;
-}
+} */
 /* ------------------------------------------
 SITE FONTS
 --------------------------------------------- */
-.hdin-fnts {
+/* .hdin-fnts {
   font-family: "Georgia", Times, Times New Roman, serif;
 }
 #side_bar .fa {
   font-size: 3rem !important;
   float: left;
   padding-right: 7%;
-}
+} */
 /* ------------------------------------------
 SITE COLORS
 --------------------------------------------- */
-.red {
+/* .red {
   color: #f00;
 }
 .teal {
@@ -348,11 +356,11 @@ SITE COLORS
 }
 .greybg {
   background-color: #666666;
-}
+} */
 /* ------------------------------------------
 TYPOGRAPHY
 --------------------------------------------- */
-.t-1 {
+/* .t-1 {
   font-size: 1.2rem;
 }
 .title-3 {
@@ -373,16 +381,16 @@ TYPOGRAPHY
 .lnks {
   font-size: 1.1rem;
 }
-a {
-  color: inherit; /* blue colors for links too */
+/* a {
+  color: inherit; /* blue colors for links too 
   text-decoration: inherit; /* no underline */
-}
-#main p {
+/* } 
+/* #main p {
   text-align: justify;
   padding: 0.6rem 0;
   line-height: 1.4rem;
-}
-.port_title {
+} */ 
+/* .port_title {
   color: #fff;
   background-color: #4aaaa5b3;
   padding: 16px 11px;
@@ -391,11 +399,11 @@ a {
   z-index: 2;
   bottom: 67px;
   left: 0px;
-}
+} */ */
 /* ------------------------------------------
 HEADER
 --------------------------------------------- */
-header {
+/* header {
   background: #fff;
   position: fixed;
   z-index: 3;
@@ -499,7 +507,7 @@ header {
   ELEMENTS
 --------------------------------------------- */
 
-.rounded-corners {
+/* .rounded-corners {
   border-radius: 8%;
 }
 .port_img {
@@ -514,7 +522,7 @@ header {
 }
 .social_links {
   display: flex;
-}
+} */
 /* ------------------------------------------
 FORM
 --------------------------------------------- */
@@ -674,3 +682,20 @@ button {
     padding: 2rem 1.2rem 0.2rem 1.2rem;
   }
 }
+
+/* h1 {`
+  i love mangos
+} */ 
+
+/* <!-- TOP NAVIGATION -->
+    <div id="main-nav">
+        <a href="#" id="hamburger" class="mbl-icon" data-ishidden = false >&#9776;</a>
+        <nav class="nav-collapse">
+            <ul class="top-nav">
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about.htm">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div> */
