@@ -11,48 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 <!-- CSS/STYLESHEET -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/heycss.css">
+    <link rel="stylesheet" href="css/normalize2.css">
 <!-- PAGE TITLE -->
     <title>Jirah Mae's Portfolio</title>
 </head>
 
 <body>
 <!-- TOP NAVIGATION -->
-    <div id="main-nav">
-        <a href="#" id="hamburger" class="mbl-icon" data-ishidden = false >&#9776;</a>
+    <header> <a href="index.htm" class="logo" data-scroll>jM</a> <a href="#" id="hamburger" class="mbl-icon" data-ishidden = false >&#9776;</a>
         <nav class="nav-collapse">
-            <div class="dropdown">
-                <button class ="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-            </div>
-            <ul class="top-nav">
-                <li><a href="index.htm">Home</a></li>
-                <li><a href="about.htm">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li class="menu-item active btm_bdr"><a href="index.html" data-scroll ><span class="lnks">Home</span></a> <span class="dev">|</span></a></li>
+            <li class="menu-item btm_bdr"><a href="about.htm" data-scroll><span class="lnks">About Me</span></a> <span class="dev">|</span></a></li>
+            <li class="menu-item"><a href="index.htm#work" data-scroll><span class="lnks">Case Studies</span></a><span class="dev">|</span></a></li>
+            <li class="menu-item"><a href="index.htm#contact" data-scroll><span class="lnks">Contact</span></a></li>
+          </ul>
         </nav>
-    </div>
+      </header>
 
 <!-- HERO/SPLASH -->
-    <div id="header">
+    <section id="header">
         <div class="left-div">
-            <h1 class="hello-text">HELLO, I AM JIRAH MAE</h1>
+            <h1>HELLO, I AM JIRAH MAE</h1>
         </div>
         <div class="right-div">
             <img alt="" src="images/">
         </div>
-    </div>
+    </section>
 
 <!-- WORK -->
     <section id="work">
         <div class="work-containers">
-            <div class="work-01">
-                <div class="text-body work-image">
+            <div id="work-01">
+                <div class="work-body">
                     <div class="work-header">
                         <h2>CASE STUDY 01 TITLE</h2>
                     </div>
@@ -67,8 +58,8 @@
                     <img alt="" src="images/"> 
                 </div>
             </div>
-            <div class="work-02">
-                <div class="text-body work-image2">
+            <div id="work-02">
+                <div class="work-body">
                     <div class="work-header">
                         <h2>CASE STUDY 02 TITLE</h2>
                     </div>
@@ -76,12 +67,12 @@
                         <p>THIS IS ABOUT CASE STUDY 02</p>
                     </div>
                 </div>
-                <div class="work-image2">
+                <div class="work-image">
                     <img alt="" src="https://i.ytimg.com/vi/9rrfjtm7RGE/maxresdefault.jpg" style="width:100%">
                 </div>
             </div>
-            <div class="work-03">
-                <div class="text-body">
+            <div id="work-03">
+                <div class="work-body">
                     <div class="work-header">
                         <h2>CASE STUDY 03 TITLE</h2>
                     </div>
@@ -95,15 +86,6 @@
             </div>
         </div>
     </section>
-
-<!-- ABOUT -->
-    <!-- <section id="about">
-        <div class="about-pic">
-            <img alt="" src="images/">
-        </div>
-        <div class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta nemo omnis est vel repellat ducimus non magni deserunt nostrum temporibus a suscipit ipsam hic quod incidunt, iusto doloribus quos?
-        </div>
-    </section> -->
 
 <!-- CONTACT -->
     <section id="contact">
@@ -125,6 +107,6 @@
         </div>
     </section>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
 <script src="js/main.js"></script>
 </html>
