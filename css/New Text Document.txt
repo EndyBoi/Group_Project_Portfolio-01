@@ -1,0 +1,19 @@
+Primary-colour: rgba(117,14,250,1)
+Primary-colour: rgba(112,0,255,0.75)
+Primary-colour: rgba(112,0,255,0.5)
+Primary-colour: rgba(112,0,255,0.25)
+
+Seoncdary-colour: rgba(235,0,255,1)
+Seoncdary-colour: rgba(235,0,255,0.75)
+Seoncdary-colour: rgba(235,0,255,0.5)
+Seoncdary-colour: rgba(235,0,255,0.25)
+
+Accent1-colour: rgba(255,156,40,1)
+Accent1-colour: rgba(255,156,40,0.86)
+Accent1-colour: rgba(255,156,40,0.5)
+Accent1-colour: rgba(255,156,40,0.25)
+
+Accent2-colour: rgba(239,38,38,1)
+Accent2-colour: rgba(239,38,38,0.75)
+Accent2-colour: rgba(239,38,38,0.5)
+Accent2-colour: rgba(239,38,38,0.25)
