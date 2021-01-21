@@ -55,59 +55,81 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: #4095c6;
+}
+@media all and (max-width: 30em) {
+  .button {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
 #work-01 {
-  background: white;
-  height: 500px;
-  margin: 50px 0px 10px;
-  border-radius: 15px;
-  width: 90%;
-  background: linear-gradient(90deg, rgb(50, 107, 118), white);
+  background: rgb(166, 155, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 48px;
+  background: linear-gradient(90deg, white, rgb(102, 110, 189));
+  height: 546px;
+  width: 85%;
+  display: inline-block;
+  margin: 2.5em;
+}
+.work-body1 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  height: auto;
+  float: left;
+}
+.work-header1 {
   /* This is the h2 */
-  }
-  .work-body1 {
-    /* This contains header, paragraph, button, and image. */
-    height: 500px;
-    width: 40%;
-    height: auto;
-    float: left;
-  }
-  .work-header1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0px 0px;
-  }
-  .work-paragraph1 {
-    /* This is the text ditty */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 70px 0px 0px;
-  }
-  .work-button1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      font-size: 1rem;
-      margin-top: 18px;
-      border: none;
-      margin: 0px 55px;
-      padding: 30px 0px 0px 0px;
-  }
-  .work-image1 {
-    /* Image shows on the right */
-    object-fit: cover;
-    width: 60%;
-    height: 100%;
-        float: right;
-        justify-content: center;
-        align-content: center;
-        padding: 20px 0px 30px 20px;
-        background:url('../images/CSfoodie.svg');
-        background-size:cover;
-        background-position:center;
-  }
-#work-02 {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20% 0px 0px;
+}
+.work-paragraph1 {
+  /* This is the text ditty */
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 12%;
+}
+.work-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 8% 0px 0px 0px;
+}
+.work-image1 {
+  /* margin: 0% -0.3% 0% 0%; */
+  /* padding: 0% -0.5% 0% 0%; */
+  object-fit: fill;
+  width: 60%;
+  height: 100%;
+  float: right;
+  background: url("../images/CSfoodie.svg");
+  background-size: fill;
+  background-position: right;
 }
 
 #work-02 {
@@ -115,116 +137,117 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin: 20px 0px;
   padding: 0 20px 0;
   border-radius: 15px;
   background: linear-gradient(90deg, white, rgb(117,14,250,1));
   height: 500px;
   width: 90%;
+=======
+  border-radius: 48px;
+  background: linear-gradient(90deg, white, rgb(102, 110, 189));
+  height: 546px;
+  width: 85%;
+>>>>>>> e20d55b7b041dc1ef80bddf25e08c422a45584fa
   display: inline-block;
+  margin: 2.5em;
 }
-  .work-body2
-   {
-    height: 500px;
-    width: 50%;
-    height: auto;
-    float: left;
-  /* This contains header, paragraph, button, and image. */
-  }
-  .work-header2 {
-    /* This is the h2 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0px 0px;
-  }
-  .work-paragraph2 {
-    /* This is the text ditty */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 70px 0px 0px;
-  }
-  .work-button2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      font-size: 1rem;
-      margin-top: 18px;
-      border: none;
-      margin: 0px 55px;
-      padding: 30px 0px 0px 0px;
-  }
-  .work-image2 {
-    object-fit: cover;
-    width: 50%;
-    height: 100%;
-        float: right;
-        justify-content: center;
-        align-content: center;
-        padding: 20px 0px 30px;
-        background:url('../images/CSmoon.svg');
-        background-size:cover;
-        background-position:center;
-  }
-#work-03 {
-  background: rgb(180, 180, 207);
+.work-body2 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  height: auto;
+  float: left;
+}
+.work-header2 {
+  /* This is the h2 */
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
-  padding: 0 20px 0;
-  border-radius: 15px;
-  background: linear-gradient(90deg, rgb(192, 166, 191), white);
-  height: 500px;
-  width: 90%;
-  display: inline-block;
+  padding: 20% 0px 0px;
 }
-  .work-body3 {
-    /* This contains header, paragraph, button, and image. */
-    height: 500px;
-    width: 50%;
-    height: auto;
-    float: left;
-  }
-  .work-header3 {
-    /* This is the h2 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0px 0px;
-  }
-  .work-paragraph3 {
-    /* This is the text ditty */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 70px 0px 0px;
-  }
-  .work-button3 {
-    /* Read more button */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      font-size: 1rem;
-      margin-top: 18px;
-      border: none;
-      margin: 0px 55px;
-      padding: 30px 0px 0px 0px;
-  }
-  .work-image3 {
-    /* Image shows on the right */
-    object-fit: cover;
-    width: 50%;
-    height: 95%;
-        float: right;
-        justify-content: center;
-        align-content: center;
-        padding: 20px 0px 30px;
-        background:url('../images/CSwyer.svg');
-        background-size:cover;
-        background-position:center;
-  }
+.work-paragraph2 {
+  /* This is the text ditty */
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 12%;
+}
+.work-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 8% 0px 0px 0px;
+}
+
+.work-image2 {
+  /* margin: 0% -0.3% 0% 0%; */
+  /* padding: 0% -0.5% 0% 0%; */
+  object-fit: fill;
+  width: 60%;
+  height: 100%;
+  float: right;
+  background: url("../images/CSmoon.svg");
+  background-size: fill;
+  background-position: right;
+}
+#work-03 {
+  background: rgb(166, 155, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 48px;
+  background: linear-gradient(90deg, white, rgb(102, 110, 189));
+  height: 546px;
+  width: 85%;
+  display: inline-block;
+  margin: 2.5em;
+}
+.work-body3 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  height: auto;
+  float: left;
+}
+.work-header3 {
+  /* This is the h2 */
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20% 0px 0px;
+}
+.work-paragraph3 {
+  /* This is the text ditty */
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 12%;
+}
+.work-button3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 8% 0px 0px 0px;
+}
+.work-image3 {
+  /* margin: 0% -0.3% 0% 0%; */
+  /* padding: 0% -0.5% 0% 0%; */
+  object-fit: fill;
+  width: 60%;
+  height: 100%;
+  float: right;
+  background: url("../images/CSwyer.svg");
+  background-size: fill;
+  background-position: right;
+}
 
 /*----- A B O U T M E-----*/
 
@@ -275,10 +298,14 @@ body {
 }
 
 /*-----C O N T A C T-----*/
+<<<<<<< HEAD
 #contact {
   background: rgb(155, 148, 148);
 }
 #contact h3{
+=======
+#contact h3 {
+>>>>>>> e20d55b7b041dc1ef80bddf25e08c422a45584fa
   text-align: center;
   padding: 15px 0px 25px;
 }
@@ -316,7 +343,7 @@ body {
 .logo a {
   display: block;
 }
-.logo a img{
+.logo a img {
   display: block;
   width: 13%;
 }
@@ -334,7 +361,7 @@ body {
   transition: 0.5s;
 }
 .top-nav li {
-  list-style-type: none;  
+  list-style-type: none;
 }
 .top-nav li a {
   color: #fff;
@@ -346,8 +373,7 @@ body {
   transition: 0.3s;
 }
 .top-nav li a:hover {
-  box-shadow: 0 -5px 0px #fff inset,
-  500px 0 0 rgba(255,255,255,0.03) inset;
+  box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255, 255, 255, 0.03) inset;
   padding: 35px 25px 8px 25px;
 }
 
@@ -381,7 +407,7 @@ body {
   top: 10px;
   width: 25px;
 }
-.toggle-menu{
+.toggle-menu {
   position: absolute;
   width: 30px;
   height: 100%;
@@ -391,8 +417,8 @@ body {
 }
 .hamburger,
 .toggle-menu {
-    display: none;  
-} 
+  display: none;
+}
 .navigation input:checked ~ .hamburger {
   background: transparent;
 }
@@ -408,41 +434,40 @@ body {
 }
 .navigation input:checked ~ .top-nav {
   right: 0px;
-  box-shadow: -20px 0 40px rgba(0,0,0,0.3);
+  box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
 }
 
 /* @media 992 */
 
-
 @media screen and (max-width: 992px) {
   .hamburger,
   .toggle-menu {
-      display: block;  
-}
-.header {
-  padding: 10px 20px;
-}
-.top-nav {
-  justify-content: start;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: -300px;
-  background: purple;
-  width: 300px;
-  height: 100%;
-  padding-top: 110px;  
-}
-.top-nav li {
-  width: 100%;
-}
-.top-nav li a,
-.menu li a:hover {
-  padding: 30px;
-  font-size: 24px;
-  box-shadow: 0 1px 0 rgba(255,255,255,0.1)inset;
-}
+    display: block;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .top-nav {
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background: purple;
+    width: 300px;
+    height: 100%;
+    padding-top: 110px;
+  }
+  .top-nav li {
+    width: 100%;
+  }
+  .top-nav li a,
+  .menu li a:hover {
+    padding: 30px;
+    font-size: 24px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+  }
 }
 
 /* 
@@ -620,4 +645,4 @@ body {
     width: 25%;
     padding: 2rem 1.2rem 0.2rem 1.2rem;
   }
-}  */ 
+}  */
