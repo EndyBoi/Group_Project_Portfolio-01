@@ -50,7 +50,7 @@ body {
 #work {
 }
 .work-containers {
-  height: 1400px;
+  height: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@ body {
   .work-body1 {
     /* This contains header, paragraph, button, and image. */
     height: 500px;
-    width: 50%;
+    width: 40%;
     height: auto;
     float: left;
   }
@@ -96,19 +96,21 @@ body {
   }
   .work-image1 {
     /* Image shows on the right */
-    width: 40%;
+    object-fit: cover;
+    width: 60%;
+    height: 100%;
         float: right;
         justify-content: center;
         align-content: center;
-        padding: 35px 40px 30px 0px;
+        padding: 20px 0px 30px 20px;
+        background:url('../images/CSfoodie.svg');
+        background-size:cover;
+        background-position:center;
   }
-<<<<<<< HEAD
 #work-02 {
-
-=======
+}
 
 #work-02 {
->>>>>>> 908f3a8eef899c6000914f0e26f5c93cffae8b59
   background: rgb(166, 155, 218);
   display: flex;
   align-items: center;
@@ -154,11 +156,16 @@ body {
       padding: 30px 0px 0px 0px;
   }
   .work-image2 {
+    object-fit: cover;
     width: 50%;
+    height: 100%;
         float: right;
         justify-content: center;
         align-content: center;
-        padding: 35px 0px 30px;
+        padding: 20px 0px 30px;
+        background:url('../images/CSmoon.svg');
+        background-size:cover;
+        background-position:center;
   }
 #work-03 {
   background: rgb(180, 180, 207);
@@ -205,14 +212,18 @@ body {
       margin: 0px 55px;
       padding: 30px 0px 0px 0px;
   }
-  }
   .work-image3 {
     /* Image shows on the right */
+    object-fit: cover;
     width: 50%;
+    height: 95%;
         float: right;
         justify-content: center;
         align-content: center;
-        padding: 35px 0px 30px;
+        padding: 20px 0px 30px;
+        background:url('../images/CSwyer.svg');
+        background-size:cover;
+        background-position:center;
   }
 
 /*----- A B O U T M E-----*/
@@ -470,7 +481,7 @@ body {
 
 /*-----M O B I L E-----*/
 /*Extra small devices (landscape phones, less than 575px) */
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .social_links {
     justify-content: center;
   }
@@ -483,7 +494,7 @@ body {
 }
 
 /*Extra small devices (landscape phones, greater than 575px) */
-@media (min-width: 575px) {
+/* @media (min-width: 575px) {
   .social_links {
     justify-content: flex-start;
   }
@@ -493,7 +504,7 @@ body {
 }
 
 /* Smaller devices (landscape phones, less than 639px) */
-@media (max-width: 639px) {
+/* @media (max-width: 639px) {
   .flex-grid {
     flex-direction: column;
   }
@@ -509,10 +520,10 @@ body {
   .col {
     margin-bottom: -33px;
   }
-}
+} */
 
 /* Smaller devices (landscape phones, greater than 639px) */
-@media (min-width: 639px) {
+/* @media (min-width: 639px) {
   .mbl-icon {
     display: none;
   }
@@ -523,10 +534,10 @@ body {
   .open {
     display: block !important;
   }
-}
+} */
 
 /*Small devices (landscape phones, less than 768px) */
-
+/* 
 @media (max-width: 767px) {
   .container {
     padding: 0 0.8rem;
@@ -569,10 +580,10 @@ body {
     cursor: pointer;
     right: 1.2rem;
   }
-}
+} */
 
 /*Small devices (landscape phones, greater than 768px) */
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   article {
     width: 100%;
   }
@@ -589,4 +600,4 @@ body {
     width: 25%;
     padding: 2rem 1.2rem 0.2rem 1.2rem;
   }
-}
+}  */ 
