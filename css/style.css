@@ -102,8 +102,13 @@ body {
         align-content: center;
         padding: 35px 40px 30px 0px;
   }
+<<<<<<< HEAD
 #work-02 {
 
+=======
+
+#work-02 {
+>>>>>>> 908f3a8eef899c6000914f0e26f5c93cffae8b59
   background: rgb(166, 155, 218);
   display: flex;
   align-items: center;
