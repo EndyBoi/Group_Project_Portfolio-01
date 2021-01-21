@@ -82,7 +82,8 @@ body {
   .work-image1 {
     /* Image shows on the right */
   }
-.work-02 {
+
+#work-02 {
   background: rgb(166, 155, 218);
   display: flex;
   align-items: center;
