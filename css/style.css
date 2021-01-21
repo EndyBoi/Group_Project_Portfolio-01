@@ -50,14 +50,14 @@ body {
 #work {
 }
 .work-containers {
-  height: 1300px;
+  height: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #work-01 {
   background: white;
-  height: 340px;
+  height: 500px;
   margin: 50px 0px 10px;
   border-radius: 15px;
   width: 90%;
@@ -66,23 +66,44 @@ body {
   }
   .work-body1 {
     /* This contains header, paragraph, button, and image. */
+    height: 500px;
+    width: 50%;
+    height: auto;
+    float: left;
   }
   .work-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 0px;
   }
   .work-paragraph1 {
     /* This is the text ditty */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 0px;
   }
   .work-button1 {
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    margin-top: 18px;
-    border: none;
-    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-size: 1rem;
+      margin-top: 18px;
+      border: none;
+      margin: 0px 55px;
+      padding: 30px 0px 0px 0px;
   }
   .work-image1 {
     /* Image shows on the right */
+    width: 40%;
+        float: right;
+        justify-content: center;
+        align-content: center;
+        padding: 35px 40px 30px 0px;
   }
-.work-02 {
+#work-02 {
+
   background: rgb(166, 155, 218);
   display: flex;
   align-items: center;
@@ -91,12 +112,13 @@ body {
   padding: 0 20px 0;
   border-radius: 15px;
   background: linear-gradient(90deg, white, rgb(102, 110, 189));
-  height: 400px;
+  height: 500px;
   width: 90%;
   display: inline-block;
 }
   .work-body2
    {
+    height: 500px;
     width: 50%;
     height: auto;
     float: left;
@@ -107,54 +129,86 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px 0px 0px;
   }
   .work-paragraph2 {
     /* This is the text ditty */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 70px 0px 0px;
   }
   .work-button2 {
-      padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
       font-size: 1rem;
       margin-top: 18px;
       border: none;
-      margin: 0px 15px;
+      margin: 0px 55px;
+      padding: 30px 0px 0px 0px;
   }
   .work-image2 {
     width: 50%;
-    height: 100%;
         float: right;
+        justify-content: center;
+        align-content: center;
+        padding: 35px 0px 30px;
   }
 #work-03 {
   background: rgb(180, 180, 207);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px 0px;
+  padding: 0 20px 0;
   border-radius: 15px;
   background: linear-gradient(90deg, rgb(192, 166, 191), white);
-  height: 400px;
+  height: 500px;
   width: 90%;
+  display: inline-block;
 }
   .work-body3 {
     /* This contains header, paragraph, button, and image. */
+    height: 500px;
+    width: 50%;
+    height: auto;
+    float: left;
   }
   .work-header3 {
     /* This is the h2 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 0px;
   }
   .work-paragraph3 {
     /* This is the text ditty */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 0px;
   }
   .work-button3 {
     /* Read more button */
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    margin-top: 18px;
-    border: none;
-    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-size: 1rem;
+      margin-top: 18px;
+      border: none;
+      margin: 0px 55px;
+      padding: 30px 0px 0px 0px;
+  }
   }
   .work-image3 {
     /* Image shows on the right */
+    width: 50%;
+        float: right;
+        justify-content: center;
+        align-content: center;
+        padding: 35px 0px 30px;
   }
-}
 
 /*----- A B O U T M E-----*/
 
@@ -221,13 +275,14 @@ body {
   background: purple;
   padding: 0 25px;
   transition: 0.3s;
+  height: 60px;
 }
 .logo a {
   display: block;
 }
 .logo a img{
   display: block;
-  width: 25%;
+  width: 13%;
 }
 .navigation {
   display: flex;
@@ -257,7 +312,7 @@ body {
 .top-nav li a:hover {
   box-shadow: 0 -5px 0px #fff inset,
   500px 0 0 rgba(255,255,255,0.03) inset;
-  padding: 35px 25px 45px 25px;
+  padding: 35px 25px 8px 25px;
 }
 
 /* Hamburger YUM */
