@@ -32,22 +32,25 @@ body {
 }
 
 /*-----H E A D E R-----*/
-#header2 {
-  background: gray;
+#headertop {
+  background: rgb(0, 0, 0);
+  color: white;
   height: 40%;
   width: 100%;
-  padding: 10px 0px 0px;
 }
 .left-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 10px;
 }
 .right-div {
 }
 
 /*-----W O R K-----*/
 #work {
-  height: 1300px;
 }
 .work-containers {
+  height: 1300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,22 +64,22 @@ body {
   background: linear-gradient(90deg, rgb(50, 107, 118), white);
   /* This is the h2 */
   }
-  .work-body {
+  .work-body1 {
     /* This contains header, paragraph, button, and image. */
   }
-  .work-header {
+  .work-header1 {
   }
-  .work-paragraph {
+  .work-paragraph1 {
     /* This is the text ditty */
   }
-  .work-button {
+  .work-button1 {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     margin-top: 18px;
     border: none;
     margin: 0px 15px;
   }
-  .work-image {
+  .work-image1 {
     /* Image shows on the right */
   }
 .work-02 {
@@ -85,39 +88,44 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px 0px;
+  padding: 0 20px 0;
   border-radius: 15px;
   background: linear-gradient(90deg, white, rgb(102, 110, 189));
   height: 400px;
   width: 90%;
+  display: inline-block;
 }
   .work-body2
    {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 50%;
+    height: auto;
+    float: left;
   /* This contains header, paragraph, button, and image. */
   }
-  .work-header2 h2{
+  .work-header2 {
     /* This is the h2 */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .work-header2 p {
+  .work-paragraph2 {
+    /* This is the text ditty */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .work-paragraph {
-    /* This is the text ditty */
-  }
-  .work-button {
+  .work-button2 {
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      margin-top: 18px;
+      border: none;
+      margin: 0px 15px;
   }
   .work-image2 {
-    max-width: 100%;
-    display: flex;
-    flex-basis: 65%;
-}
+    width: 50%;
+    height: 100%;
+        float: right;
+  }
 #work-03 {
   background: rgb(180, 180, 207);
   margin: 20px 0px;
@@ -126,17 +134,22 @@ body {
   height: 400px;
   width: 90%;
 }
-  .work-body {
+  .work-body3 {
     /* This contains header, paragraph, button, and image. */
   }
-  .work-header {
+  .work-header3 {
     /* This is the h2 */
   }
-  .work-paragraph {
+  .work-paragraph3 {
     /* This is the text ditty */
   }
-  .work-button {
+  .work-button3 {
     /* Read more button */
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 18px;
+    border: none;
+    margin: 0px 15px;
   }
   .work-image3 {
     /* Image shows on the right */
