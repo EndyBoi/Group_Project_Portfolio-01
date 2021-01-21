@@ -118,7 +118,7 @@ body {
   margin: 20px 0px;
   padding: 0 20px 0;
   border-radius: 15px;
-  background: linear-gradient(90deg, white, rgb(102, 110, 189));
+  background: linear-gradient(90deg, white, rgb(117,14,250,1));
   height: 500px;
   width: 90%;
   display: inline-block;
@@ -231,16 +231,33 @@ body {
 #about-body {
 }
 .about-pic {
+  width: 50%;
+  margin: 0% 25%;
+  height: 50%;
+}
+
+.about-pic img {
+  border-radius: 50%;
 }
 .about-text {
 }
 .about-header {
 }
 .about-header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  padding: 6% 0%;
 }
 .about-body {
 }
 .about-body p {
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  padding: 1% 1% 1% 1%;
+  margin: 1% 25% 1% 25%;
 }
 
 /*----- P O S T-----*/
@@ -258,6 +275,9 @@ body {
 }
 
 /*-----C O N T A C T-----*/
+#contact {
+  background: rgb(155, 148, 148);
+}
 #contact h3{
   text-align: center;
   padding: 15px 0px 25px;
@@ -470,11 +490,11 @@ body {
 #footer {
   display: flex;
   justify-content: center;
-  background: rgb(199, 195, 195);
+  background: rgb(155, 148, 148);
 }
 
 .copyright {
-  background: rgb(199, 195, 195);
+  background: rgb(155, 148, 148);
   color: black;
   margin: 20px 0px;
 }
