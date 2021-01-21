@@ -6,110 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- FAVE ICON -->
     <link rel="shortcut icon" href="/images/">
+<!-- FONT IMPORT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 <!-- CSS/STYLESHEET -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/heycss.css">
+    <link rel="stylesheet" href="css/style.css">
 <!-- PAGE TITLE -->
     <title>Jirah Mae's Portfolio</title>
 </head>
 
 <body>
 <!-- TOP NAVIGATION -->
-    <div id="main-nav">
-        <!-- <a href="#" id="hamburger" class="mbl-icon" data-ishidden = false >&#9776;</a> -->
-        <nav class="nav-collapse">
-            <div class="dropdown">
-                <button class ="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-            </div>
+    <header class="header">
+        <div class ="logo">
+        <a href="#">
+            <img src="https://t4.ftcdn.net/jpg/03/22/46/05/360_F_322460506_Kw1yTUIZjpI60aSxBAlPV6w4VY6ddHgo.jpg" alt="">
+        </a>
+        </div>
+        <div class ="navigation">
+
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+
             <ul class="top-nav">
                 <li><a href="index.htm">Home</a></li>
                 <li><a href="about.htm">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </header>
 
 <!-- HERO/SPLASH -->
-    <div id="header">
+    <section id="headertop">
         <div class="left-div">
-            <h1 class="hello-text">HELLO, I AM JIRAH MAE</h1>
+            <h1>HELLO, I AM JIRAH MAE</h1>
         </div>
         <div class="right-div">
-            <img alt="" src="images/">
+            <img alt="" src="https://miro.medium.com/max/3200/1*Mycg7xtgCBqY-2FoSlefZw.gif">
         </div>
-    </div>
+    </section>
 
 <!-- WORK -->
     <section id="work">
         <div class="work-containers">
-            <div class="work-01">
-                <div class="text-body work-image">
-                    <div class="work-header">
+            <div id="work-01">
+                <div class="work-body1">
+                    <div class="work-header1">
                         <h2>CASE STUDY 01 TITLE</h2>
                     </div>
-                    <div class="work-paragraph">
+                    <div class="work-paragraph1">
                         <p>THIS IS ABOUT CASE STUDY 01</p>
                     </div>
-                    <div class="work-button">
+                    <div class="work-button1">
                         <button type="button" onclick="location.href='work/case01.htm';">Read case study ➞</button>
                     </div>
                 </div>
-                <div class="work-image">
+                <div class="work-image1">
                     <img alt="" src="images/"> 
                 </div>
             </div>
-            <div class="work-02">
-                <div class="text-body work-image2">
-                    <div class="work-header">
+            <!-- <div class="work-02">
+                <div class="work-image2">
+                    <img alt="" src="https://i.ytimg.com/vi/9rrfjtm7RGE/maxresdefault.jpg">
+                </div>
+                <div class ="work-header">
+                <h2>CASE STUDY 02 TITLE</h2>
+                <p>THIS IS ABOUT CASE STUDY 02</p>
+                </div>
+            </div> -->
+
+            <div id="work-02">
+                <div class="work-body2">
+                    <div class="work-header2">
                         <h2>CASE STUDY 02 TITLE</h2>
                     </div>
-                    <div class="work-paragraph">
+                    <div class="work-paragraph2">
                         <p>THIS IS ABOUT CASE STUDY 02</p>
+                    </div>
+                    <div class="work-button2">
+                        <button type="button" onclick="location.href='work/case01.htm';">Read case study ➞</button>
                     </div>
                 </div>
                 <div class="work-image2">
-                    <img alt="" src="https://i.ytimg.com/vi/9rrfjtm7RGE/maxresdefault.jpg" style="width:100%">
+                    <img alt="" src="https://pagedesignpro.com/wp-content/uploads/2018/02/AAEAAQAAAAAAAAjDAAAAJGY2MWMwMTYzLWZmYzMtNGYyMi04YmE5LTVhNTJjZDcxYjhjNA-1.png">
                 </div>
             </div>
-            <div class="work-03">
-                <div class="text-body">
-                    <div class="work-header">
+
+            <div id="work-03">
+                <div class="work-body3">
+                    <div class="work-header3">
                         <h2>CASE STUDY 03 TITLE</h2>
                     </div>
-                    <div class="work-paragraph">
+                    <div class="work-paragraph3">
                         <p>THIS IS ABOUT CASE STUDY 03</p>
                     </div>
+                    <div class="work-button3">
+                        <button type="button" onclick="location.href='work/case01.htm';">Read case study ➞</button>
+                    </div>
                 </div>
-                <div class="work-image">
+                <div class="work-image3">
                     <img alt="" src="images/">
                 </div>
             </div>
         </div>
     </section>
 
-<!-- ABOUT -->
-    <!-- <section id="about">
-        <div class="about-pic">
-            <img alt="" src="images/">
-        </div>
-        <div class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta nemo omnis est vel repellat ducimus non magni deserunt nostrum temporibus a suscipit ipsam hic quod incidunt, iusto doloribus quos?
-        </div>
-    </section> -->
-
 <!-- CONTACT -->
     <section id="contact">
         <div class="bot">
+            <div class="cta"><h3>Have your people contact my people ☎️</h3></div>
             <ul class="bot-nav">
-              <li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email <br><a href=#>JirahMae@Site.com</a></li> 
-              <li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resume <br><a href=#>Download PDF</a></li> 
-              <li> &nbsp;&nbsp;LinkedIn <br><a href=#>/in/JirahMae</a></li> 
-              <li> &nbsp;&nbsp;Medium <br><a href=#>@JirahMae</a></li> 
+              <li>Email<br><a href=#>JirahMae@Site.com</a></li> 
+              <li>Resume<br><a href=#>Download PDF</a></li> 
+              <li>LinkedIn<br><a href=#>/in/JirahMae</a></li> 
+              <li>Medium<br><a href=#>@JirahMae</a></li> 
             </ul>        
           </div>
     </section>
@@ -121,6 +133,6 @@
         </div>
     </section>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
 <script src="js/main.js"></script>
 </html>
