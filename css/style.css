@@ -113,6 +113,7 @@ body {
   margin: 2.5em;
   background: url("../images/moonLG.svg");
   background-size: fill;
+  background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 .work-body1 {
@@ -156,8 +157,9 @@ body {
   width: 85%;
   display: inline-block;
   margin: 2.5em;
-  background: url("../images/test01.svg");
+  background: url("../images/moonLG.svg");
   background-size: fill;
+  background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 .work-body2 {
@@ -200,8 +202,9 @@ body {
   width: 85%;
   display: inline-block;
   margin: 2.5em;
-  background: url("../images/test01.svg");
+  background: url("../images/moonLG.svg");
   background-size: fill;
+  background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 .work-body3 {
