@@ -451,18 +451,17 @@ body {
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
-
-  /* .work-image1 {
-    margin: 0 -1% 0 0;
-    object-fit: fill;
-    width: 60%;
-    height: 100%;
-    float: right;
-    background: url("../images/moonSM.svg");
-    background-size: fill;
-    background-position: right;
-    border-radius: 48px;
-  } */
+  #work-01 {
+    /* margin: 0 -1% 0 0; */
+    /* object-fit: fill; */
+    /* width: 60%; */
+    /* height: 100%; */
+    /* float: top; */
+    background: url("images/moonSM.svg");
+    /* background-size: fill; */
+    /* background-position: center; */
+    /* border-radius: 48px; */
+  }
   .work-image2 {
     margin: 0 -1% 0 0;
     object-fit: fill;
