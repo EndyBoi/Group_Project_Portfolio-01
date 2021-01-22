@@ -40,7 +40,11 @@
 
 <!-- HERO/SPLASH -->
     <section id="headertop">
-        <img src="images/headerLG.svg">
+        <picture>
+            <source media="(max-width: 576px)" srcset="images/headerSM.svg">
+            <source media="(min-width: 577px)" srcset="images/headerLG.svg">
+            <img src="/images/headerLG.svg">
+        </picture>
     </section>
 
 <!-- WORK -->
