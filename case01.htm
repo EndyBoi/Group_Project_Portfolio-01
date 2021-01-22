@@ -18,73 +18,90 @@
 
 <body>
 <!-- TOP NAVIGATION -->
-<header class="header">
-    <div class ="logo">
-    <a href="../index.htm">
-        <img src="images/jm.svg" alt="JM">
-    </a>
-    </div>
-    <div class ="navigation">
-
-        <input type="checkbox" class="toggle-menu">
-        <div class="hamburger"></div>
-
-        <ul class="top-nav">
-            <li><a href="index.htm">Home</a></li>
-            <li><a href="about.htm">About Me</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</header>
+    <header class="header">
+        <div class ="logo">
+            <a href="../index.htm">
+                <img src="images/jm.svg" alt="JM">
+            </a>
+        </div>
+        <div class ="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+            <ul class="top-nav">
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about.htm">About Me</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
 
 <!-- HERO/SPLASH     -->
-    <section id="headercase1">
+    <!-- <section id="headercase1">
         <div class ="headerpic1">
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/HeroTextSM.svg">
+                <source media="(min-width: 577px)" srcset="images/HeroTextLG.svg">
+                <img src="/images/headerLG.svg">
+            </picture>
+        </div>
+        <div class ="headerpic2">
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/MobileCase1SM.svg">
+                <source media="(min-width: 577px)" srcset="images/MobileCase1LG.svg">
+                <img src="/images/MobileCase1LG.svg">
+            </picture>
+        </div>
+    </section> -->
+    <section id="headertop">
         <picture>
-            <source media="(max-width: 576px)" srcset="images/HeroTextSM.svg">
-            <source media="(min-width: 577px)" srcset="images/HeroTextLG.svg">
-            <img src="/images/headerLG.svg">
+            <source media="(max-width: 576px)" srcset="images/Case01SM.svg">
+            <source media="(min-width: 577px)" srcset="images/Case01LG.svg">
+            <img src="/images/Case01LG.svg">
         </picture>
-    </div>
-    <div class ="headerpic2">
-        <picture>
-            <source media="(max-width: 576px)" srcset="images/MobileCase1SM.svg">
-            <source media="(min-width: 577px)" srcset="images/MobileCase1LG.svg">
-            <img src="/images/MobileCase1LG.svg">
-        </picture>
-    </div>
     </section>
 
 <!-- POST -->
-<section style="purpleboxes">
-    <div class="flex-gap">
-      <div id = "one">
-        <h2>Client</h2>
-        <p>Sleepy Weepy Nappy</p>
-        <p>Time LLC</p>
-      </div>
-      <div  id = "two">
-        <h2>Time line</h2>
-        <p>4 weeks</p>
-    </div>
-      <div  id = "three">
-        <h2>Role</h2>
-        <p>UI Research</p>
-        <p>Illustrations</p>
-        <p>UI Design Concepts</p>
-    </div>
-      <div  id = "four">
-        <h2>Team</h2>
-        <p>Solo Projects</p>
-    </div>
-</div>
-  </section>
+    <section id="purpleboxes">
+        <div class="flex-gap">
+            <div id="one" class="box">
+                <h2>Client</h2>
+                <p>Sleepy Weepy Nappy</p>
+                <p>Time LLC</p>
+            </div>
+            <div id="two" class="box">
+                <h2>Time line</h2>
+                <p>4 weeks</p>
+            </div>
+            <div id="three" class="box">
+                <h2>Role</h2>
+                <p>UI Research</p>
+                <p>Illustrations</p>
+                <p>UI Design Concepts</p>
+            </div>
+            <div id="four" class="box">
+                <h2>Team</h2>
+                <p>Solo Projects</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="post-challenge">
+        <div class="post">
+            <h3>Closing Thoughts</h3>
+            <p>Lorem ipsum dolor sit amet, consectet</p>
+        </div>
+    </section>
 
+    <section id="post-role">
+        <div class="post">
+            <h3>Closing Thoughts</h3>
+            <p>Lorem ipsum dolor sit amet, consectet</p>
+        </div>
+    </section>
 
-        <div class="post-visuals">
-            <hr>
+    <section id="post-visuals">
+        <div class="post">
             <h3>The Visuals</h3>
             <p>Lorem ipsum dolor sit amet, consectet</p>
             <img alt="" src="images/">
@@ -92,17 +109,20 @@
             <img alt="" src="images/">
             <img alt="" src="images/">
             <img alt="" src="images/">
-
         </div>
-        <div class="post-extra">
+    </section>
+    <section id="post-extra">
+        <div class="post">
             <h3>Bells and Whistles</h3>
             <p>Lorem ipsum dolor sit amet, consectet</p>
         </div>
-        <div class="post-closing">
+    </section>
+    <section id="post-closing">
+        <div class="post">
             <h3>Closing Thoughts</h3>
             <p>Lorem ipsum dolor sit amet, consectet</p>
         </div>
-    </div>
+    </section>
 
 <!-- CONTACT -->
     <section id="contact">
