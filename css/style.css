@@ -33,7 +33,7 @@ body {
 #headertop {
   color: white;
   overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 #headertop img {
   margin-left: 50%;
@@ -116,7 +116,7 @@ body {
   background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body1 {
   margin: 5% 0 0 0;
@@ -150,15 +150,20 @@ body {
 
 #work-02 {
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 48px;
-  height: 547px;
+  height: 546px;
   width: 85%;
   display: inline-block;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
   background: url("../images/fudLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
-  /* viewBox="0 0 1662 547" */
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body2 {
   margin: 5% 0 0 0;
@@ -202,9 +207,10 @@ body {
   margin-bottom: 2.5em;
   margin-top: 2.5em;
   background: url("../images/cansLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body3 {
   margin: 5% 0 0 0;
@@ -322,7 +328,7 @@ body {
   padding: 0 25px;
   transition: 0.3s;
   height: 60px;
-  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.4);
 }
 .logo a {
   display: block;
@@ -453,38 +459,69 @@ body {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
   #work-01 {
-    /* margin: 0 -1% 0 0; */
-    /* object-fit: fill; */
-    /* width: 60%; */
-    /* height: 100%; */
-    /* float: top; */
+    width: 393px;
     background: url("../images/moonSM.svg");
-    /* background-size: fill; */
-    /* background-position: center; */
-    /* border-radius: 48px; */
+    background-position: center;
+    border-radius: 55px;
   }
-  .work-image2 {
-    margin: 0 -1% 0 0;
-    object-fit: fill;
-    width: 60%;
-    height: 100%;
-    float: right;
-    background: url("../images/CSmoon.svg");
-    background-size: fill;
-    background-position: right;
-    border-radius: 48px;
+  .work-body1 {
+    margin: 45% 0 0 0%;
+    width: 393px;
   }
-  .work-image3 {
-    margin: 0 -1% 0 0;
-    object-fit: fill;
-    width: 60%;
-    height: 100%;
-    float: right;
-    background: url("../images/CSmoon.svg");
-    background-size: fill;
-    background-position: right;
-    border-radius: 48px;
+  .work-header1 {
+    font-size: 1.4rem;
+    margin-top: 15%;
   }
+  .work-paragraph1 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button1 {
+    margin-top: -10%;
+  }
+  #work-02 {
+    width: 393px;
+    background: url("../images/fudSM.svg");
+    background-position: center;
+    border-radius: 55px;
+  }
+  .work-body2 {
+    margin: 42% 0 0 0%;
+    width: 393px;
+  }
+  .work-header2 {
+    font-size: 1.4rem;
+    margin-top: 15%;
+  }
+  .work-paragraph2 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button2 {
+    margin-top: -15%;
+  }
+  #work-03 {
+    width: 393px;
+    background: url("../images/cansSM.svg");
+    background-position: center;
+    border-radius: 55px;
+  }
+  .work-body3 {
+    margin: 38% 0 0 0%;
+    width: 393px;
+  }
+  .work-header3 {
+    font-size: 1.4rem;
+    margin-top: 20%;
+  }
+  .work-paragraph3 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button3 {
+    margin-top: -15%;
+  }
+
   #about-pic picture img {
     display: flex;
     align-items: center;
@@ -497,7 +534,8 @@ body {
 
 /*-----F O O T E R-----*/
 #contact {
-  background-color: #c4c4c4;
+  background-color: #e5e5e5;
+  box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.3);
 }
 .bot {
 }
@@ -508,7 +546,7 @@ body {
 #footer {
   display: flex;
   justify-content: center;
-  background: #c4c4c4;
+  background: #e5e5e5;
 }
 
 .copyright {
