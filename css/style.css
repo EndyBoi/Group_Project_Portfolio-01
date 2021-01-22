@@ -110,22 +110,24 @@ body {
   height: 546px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
   background: url("../images/moonLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 .work-body1 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header1 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +135,7 @@ body {
 }
 .work-paragraph1 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,34 +146,30 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
-  padding: 8% 0px 0px 0px;
 }
 
 #work-02 {
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 48px;
-  height: 546px;
+  height: 547px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
-  background: url("../images/moonLG.svg");
+  background: url("../images/fudLG.svg");
   background-size: fill;
   background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  /* viewBox="0 0 1662 547" */
 }
 .work-body2 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header2 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,7 +177,7 @@ body {
 }
 .work-paragraph2 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,22 +199,23 @@ body {
   height: 546px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
-  background: url("../images/moonLG.svg");
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  background: url("../images/cansLG.svg");
   background-size: fill;
   background-color: #f4f4f4;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 .work-body3 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header3 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,7 +223,7 @@ body {
 }
 .work-paragraph3 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,7 +458,7 @@ body {
     /* width: 60%; */
     /* height: 100%; */
     /* float: top; */
-    background: url("images/moonSM.svg");
+    background: url("../images/moonSM.svg");
     /* background-size: fill; */
     /* background-position: center; */
     /* border-radius: 48px; */
