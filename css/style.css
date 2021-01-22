@@ -63,14 +63,14 @@ body {
   border-width: 0;
   outline: none;
   border-radius: 25px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  background-color: rgba(235, 0, 255, 0.75);
-  color: #ecf0f1;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  /* color: #ecf0f1; */
   transition: background-color 0.3s;
 }
 .button:hover,
 .button:focus {
-  background-color: rgba(112, 0, 255, 0.75);
+  background-color: #ecf0f1;
 }
 .button > * {
   position: relative;
@@ -132,6 +132,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph1 {
   /* This is the text ditty */
@@ -179,6 +180,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph2 {
   /* This is the text ditty */
@@ -226,6 +228,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph3 {
   /* This is the text ditty */
