@@ -1,33 +1,33 @@
-<svg width="400" height="480" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M344.02 0H55.9796C25.0629 0 0 24.6243 0 55V425C0 455.376 25.0629 480 55.9796 480H344.02C374.937 480 400 455.376 400 425V55C400 24.6243 374.937 0 344.02 0Z" fill="#F4F4F4"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="15" width="400" height="297">
-<path d="M400 15H0V312H400V15Z" fill="#C4C4C4"/>
+<svg width="393" height="480" viewBox="0 0 393 480" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="393" height="480" rx="55" fill="#F4F4F4"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="15" width="393" height="297">
+<rect y="15" width="393" height="297" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
 <g filter="url(#filter0_d)">
-<path d="M51.3929 153.577L16.8859 172.502C7.56008 177.616 4.32349 189.132 9.6568 198.224L73.7159 307.423C79.0492 316.514 90.9328 319.738 100.259 314.623L134.766 295.699C144.091 290.585 147.328 279.068 141.995 269.977L77.9356 160.778C72.6023 151.687 60.7187 148.463 51.3929 153.577Z" fill="url(#pattern0)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 0 181.762)" fill="url(#pattern0)"/>
 </g>
 <g filter="url(#filter1_d)">
-<path d="M107.552 70.861L73.0446 89.7853C63.7188 94.8998 60.4822 106.416 65.8155 115.507L129.875 224.706C135.208 233.798 147.091 237.022 156.417 231.907L190.924 212.983C200.25 207.868 203.487 196.352 198.153 187.261L134.094 78.0619C128.761 68.9705 116.877 65.7465 107.552 70.861Z" fill="url(#pattern1)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 55.1758 99.0459)" fill="url(#pattern1)"/>
 </g>
 <g filter="url(#filter2_d)">
-<path d="M141.702 306.892L107.195 325.817C97.8696 330.931 94.6331 342.447 99.9664 351.539L164.025 460.737C169.359 469.829 181.242 473.053 190.568 467.938L225.075 449.014C234.401 443.9 237.638 432.383 232.304 423.292L168.245 314.093C162.912 305.002 151.028 301.778 141.702 306.892Z" fill="url(#pattern2)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 88.729 335.077)" fill="url(#pattern2)"/>
 </g>
 <g filter="url(#filter3_d)">
-<path d="M293.933 207.801L259.426 226.725C250.101 231.84 246.864 243.356 252.197 252.447L316.256 361.646C321.59 370.738 333.473 373.962 342.799 368.847L377.306 349.923C386.632 344.808 389.868 333.292 384.535 324.201L320.476 215.002C315.143 205.91 303.259 202.686 293.933 207.801Z" fill="url(#pattern3)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 238.296 235.986)" fill="url(#pattern3)"/>
 </g>
 <g filter="url(#filter4_d)">
-<path d="M199.996 224.32L165.489 243.244C156.164 248.359 152.927 259.875 158.26 268.966L222.319 378.165C227.653 387.257 239.536 390.481 248.862 385.366L283.369 366.442C292.695 361.327 295.931 349.811 290.598 340.72L226.539 231.521C221.206 222.429 209.322 219.205 199.996 224.32Z" fill="url(#pattern4)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 146.003 252.505)" fill="url(#pattern4)"/>
 </g>
 <g filter="url(#filter5_d)">
-<path d="M203.039 53.2604L168.532 72.1847C159.206 77.2992 155.969 88.8154 161.303 97.9068L225.362 207.106C230.695 216.197 242.579 219.421 251.905 214.307L286.412 195.382C295.737 190.268 298.974 178.752 293.641 169.66L229.582 60.4613C224.248 51.3699 212.365 48.1459 203.039 53.2604Z" fill="url(#pattern5)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 148.992 81.4453)" fill="url(#pattern5)"/>
 </g>
 <g filter="url(#filter6_d)">
-<path d="M328.24 87.8493L293.733 106.774C284.407 111.888 281.17 123.404 286.503 132.496L350.563 241.694C355.896 250.786 367.779 254.01 377.105 248.895L411.612 229.971C420.938 224.857 424.175 213.34 418.841 204.249L354.782 95.0502C349.449 85.9588 337.565 82.7348 328.24 87.8493Z" fill="url(#pattern6)"/>
+<rect width="76.8272" height="164.038" rx="19" transform="matrix(0.873179 -0.487399 0.499358 0.866396 272.002 116.034)" fill="url(#pattern6)"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d" x="-112.913" y="121.148" width="317.477" height="345.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="-113.037" y="121.148" width="315.071" height="345.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="-30" dy="60"/>
@@ -39,7 +39,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.0065946) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter1_d" x="-5.75391" y="9.43164" width="277.477" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d" x="-6.86084" y="9.43164" width="275.071" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1" dy="11"/>
@@ -51,7 +51,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1" transform="translate(0 -0.0064062) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter2_d" x="28.397" y="245.463" width="277.477" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d" x="26.6924" y="245.462" width="275.071" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1" dy="11"/>
@@ -63,7 +63,7 @@
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2" transform="translate(0 -0.0064062) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter3_d" x="149.628" y="189.372" width="277.477" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter3_d" x="145.26" y="189.372" width="275.071" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="-30" dy="54"/>
@@ -75,7 +75,7 @@
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3" transform="translate(0 -0.0064062) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter4_d" x="35.6909" y="185.891" width="317.477" height="345.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter4_d" x="32.9668" y="185.891" width="315.071" height="345.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="-30" dy="54"/>
@@ -87,7 +87,7 @@
 <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image4" transform="translate(0 -0.0065946) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter5_d" x="89.7334" y="-8.16895" width="277.477" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter5_d" x="86.9556" y="-8.16895" width="275.071" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1" dy="11"/>
@@ -99,7 +99,7 @@
 <pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image5" transform="translate(0 -0.0065946) scale(0.000804505 0.00037679)"/>
 </pattern>
-<filter id="filter6_d" x="214.934" y="26.4199" width="277.477" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter6_d" x="209.966" y="26.4199" width="275.071" height="305.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="1" dy="11"/>

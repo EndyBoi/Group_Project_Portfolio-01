@@ -33,7 +33,7 @@ body {
 #headertop {
   color: white;
   overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 #headertop img {
   margin-left: 50%;
@@ -62,15 +62,15 @@ body {
   overflow: hidden;
   border-width: 0;
   outline: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  background-color: rgba(235, 0, 255, 0.75);
-  color: #ecf0f1;
+  border-radius: 25px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  /* color: #ecf0f1; */
   transition: background-color 0.3s;
 }
 .button:hover,
 .button:focus {
-  background-color: rgba(112, 0, 255, 0.75);
+  background-color: #ecf0f1;
 }
 .button > * {
   position: relative;
@@ -110,30 +110,33 @@ body {
   height: 546px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
   background: url("../images/moonLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body1 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header1 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph1 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +147,6 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
-  padding: 8% 0px 0px 0px;
 }
 
 #work-02 {
@@ -156,30 +158,33 @@ body {
   height: 546px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
-  background: url("../images/moonLG.svg");
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  background: url("../images/fudLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body2 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header2 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph2 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,30 +206,33 @@ body {
   height: 546px;
   width: 85%;
   display: inline-block;
-  margin: 2.5em;
-  background: url("../images/moonLG.svg");
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  background: url("../images/cansLG.svg");
+  background-image: url;
   background-size: fill;
   background-color: #f4f4f4;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.2);
 }
 .work-body3 {
-  margin: 0;
+  margin: 5% 0 0 0;
   padding: 0;
-  width: 40%;
+  width: 28%;
   height: auto;
   float: left;
 }
 .work-header3 {
   /* This is the h2 */
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20% 0px 0px;
+  font-weight: bold;
 }
 .work-paragraph3 {
   /* This is the text ditty */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -323,7 +331,7 @@ body {
   padding: 0 25px;
   transition: 0.3s;
   height: 60px;
-  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.4);
 }
 .logo a {
   display: block;
@@ -453,6 +461,7 @@ body {
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
+<<<<<<< HEAD
 
   .work-image1{
     margin: 0 -1% 0 0;
@@ -475,18 +484,72 @@ body {
     background-size: fill;
     background-position: right;
     border-radius: 48px;
+=======
+  #work-01 {
+    width: 393px;
+    background: url("../images/moonSM.svg");
+    background-position: center;
+    border-radius: 55px;
+>>>>>>> 404ecdd90a3135dbbd9dcd981afa9aa7e99f4bc6
   }
-  .work-image3 {
-    margin: 0 -1% 0 0;
-    object-fit: fill;
-    width: 60%;
-    height: 100%;
-    float: right;
-    background: url("../images/CSmoon.svg");
-    background-size: fill;
-    background-position: right;
-    border-radius: 48px;
+  .work-body1 {
+    margin: 45% 0 0 0%;
+    width: 393px;
   }
+  .work-header1 {
+    font-size: 1.4rem;
+    margin-top: 15%;
+  }
+  .work-paragraph1 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button1 {
+    margin-top: -10%;
+  }
+  #work-02 {
+    width: 393px;
+    background: url("../images/fudSM.svg");
+    background-position: center;
+    border-radius: 55px;
+  }
+  .work-body2 {
+    margin: 42% 0 0 0%;
+    width: 393px;
+  }
+  .work-header2 {
+    font-size: 1.4rem;
+    margin-top: 15%;
+  }
+  .work-paragraph2 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button2 {
+    margin-top: -15%;
+  }
+  #work-03 {
+    width: 393px;
+    background: url("../images/cansSM.svg");
+    background-position: center;
+    border-radius: 55px;
+  }
+  .work-body3 {
+    margin: 38% 0 0 0%;
+    width: 393px;
+  }
+  .work-header3 {
+    font-size: 1.4rem;
+    margin-top: 20%;
+  }
+  .work-paragraph3 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+  .work-button3 {
+    margin-top: -15%;
+  }
+
   #about-pic picture img {
     display: flex;
     align-items: center;
@@ -499,7 +562,8 @@ body {
 
 /*-----F O O T E R-----*/
 #contact {
-  background-color: #c4c4c4;
+  background-color: #e5e5e5;
+  box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.3);
 }
 .bot {
 }
@@ -510,7 +574,7 @@ body {
 #footer {
   display: flex;
   justify-content: center;
-  background: #c4c4c4;
+  background: #e5e5e5;
 }
 
 .copyright {
