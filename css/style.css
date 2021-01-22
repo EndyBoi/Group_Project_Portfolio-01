@@ -454,17 +454,17 @@ body {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
 
-  /* .work-image1 {
+  .work-image1{
     margin: 0 -1% 0 0;
     object-fit: fill;
     width: 60%;
     height: 100%;
     float: right;
     background: url("../images/moonSM.svg");
-    background-size: fill;
+    background-size: contain;
     background-position: right;
     border-radius: 48px;
-  } */
+  } 
   .work-image2 {
     margin: 0 -1% 0 0;
     object-fit: fill;
@@ -516,4 +516,51 @@ body {
 .copyright {
   color: black;
   margin: 20px 0px;
+}
+
+/*-----CaseStudy01-----*/
+#headercase1 {
+  box-sizing: border-box;
+  height: 800px;
+  display: flex;
+}
+
+/* .headerpic1, .headerpic2 {
+  float: left;
+  width: 50%;
+} */
+.headerpic1 {
+  display: inline-table;
+  width: 40%;
+  margin: -5% -1% -20% -1%;
+}
+.headerpic2 img{
+  display: inline-table;
+  width: 100%;
+  height: 100%;
+}
+/* --- Purple Area --- */
+.flex-gap{
+  margin: 10% 0 0 0;
+}
+.flex-gap div{
+  display: inline-block;
+  width: 23%;
+  height: 25%;
+  justify-content: center;
+  background: purple;
+}
+#purpleboxes {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* doesnt show up on html */
+hr{
+  clear: both;
+  visibility: hidden;
 }
