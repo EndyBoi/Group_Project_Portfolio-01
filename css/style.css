@@ -7,8 +7,8 @@
 3.2     POST
 4.      CONTACT
 5.      TOPNAV
-6.      FOOTER
-7.      MOBILE
+6.      MOBILE
+7.      FOOTER
 - - - - - - - - */
 
 /*-----G L O B A L-----*/
@@ -21,29 +21,28 @@
 html {
   height: 100%;
   font-family: "Poppins", sans-serif;
-}
-img {
-  max-width: 100%;
+  background: #ecf0f1;
 }
 body {
-  background: rgb(199, 195, 195);
   margin: 0;
+  padding: 0;
   display: block;
 }
 
 /*-----H E A D E R-----*/
 #headertop {
-  background: rgb(0, 0, 0);
   color: white;
-  height: 40%;
-  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
-.left-div {
+#headertop img {
+  margin-left: 50%;
+  transform: translateX(-50%);
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 10px 0px 10px;
-}
-.right-div {
+  height: 100%;
+  width: 100%;
 }
 
 /*-----W O R K-----*/
@@ -112,7 +111,7 @@ body {
   width: 85%;
   display: inline-block;
   margin: 2.5em;
-  background: url("../images/test01.svg");
+  background: url("../images/moonLG.svg");
   background-size: fill;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
@@ -315,17 +314,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: mediumpurple;
+  background: #ecf0f1;
   padding: 0 25px;
   transition: 0.3s;
   height: 60px;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
 }
 .logo a {
   display: block;
 }
 .logo a img {
   display: block;
-  width: 13%;
+  width: 70%;
 }
 .navigation {
   display: flex;
@@ -344,7 +344,7 @@ body {
   list-style-type: none;
 }
 .top-nav li a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   display: block;
   padding: 40px 25px;
@@ -363,7 +363,7 @@ body {
   position: relative;
   width: 30px;
   height: 4px;
-  background: #fff;
+  background: rgba(117, 14, 250, 1);
   border-radius: 10px;
   cursor: pointer;
   z-index: 2;
@@ -375,7 +375,7 @@ body {
   position: absolute;
   height: 4px;
   right: 0;
-  background: #fff;
+  background: black;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -417,9 +417,9 @@ body {
   box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
 }
 
-/* @media 992 */
-
-@media screen and (max-width: 992px) {
+/*-----M O B I L E-----*/
+/* @media 576 */
+@media screen and (max-width: 576px) {
   .hamburger,
   .toggle-menu {
     display: block;
@@ -434,7 +434,7 @@ body {
     position: fixed;
     top: 0;
     right: -300px;
-    background: mediumpurple;
+    background: #ecf0f1;
     width: 300px;
     height: 100%;
     padding-top: 110px;
@@ -448,17 +448,18 @@ body {
     font-size: 24px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
-  .work-image1 {
+
+  /* .work-image1 {
     margin: 0 -1% 0 0;
     object-fit: fill;
     width: 60%;
     height: 100%;
     float: right;
-    background: url("../images/CSmoon.svg");
+    background: url("../images/moonSM.svg");
     background-size: fill;
     background-position: right;
     border-radius: 48px;
-  }
+  } */
   .work-image2 {
     margin: 0 -1% 0 0;
     object-fit: fill;
@@ -484,16 +485,22 @@ body {
 }
 
 /*-----F O O T E R-----*/
+#contact {
+  background-color: #c4c4c4;
+}
+.bot {
+}
+.cta {
+}
+.bot-nav {
+}
 #footer {
   display: flex;
   justify-content: center;
-  background: rgb(199, 195, 195);
+  background: #c4c4c4;
 }
 
 .copyright {
-  background: rgb(199, 195, 195);
   color: black;
   margin: 20px 0px;
 }
-
-/*-----M O B I L E-----*/
