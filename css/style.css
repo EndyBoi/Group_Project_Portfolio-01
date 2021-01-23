@@ -27,6 +27,10 @@ body {
   padding: 0;
   display: block;
 }
+body,
+html {
+  overflow-x: hidden;
+}
 /*-----H E A D E R-----*/
 #headertop {
   color: white;
@@ -297,13 +301,13 @@ body {
   width: 23%;
   height: 25%;
   justify-content: center;
-  background: gray;
+  background: #d7d9ff;
 }
 .post h3 {
-    margin: 2% 0%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 64px;
+  margin: 2% 0%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
 }
 .post img {
   display: flex;
@@ -313,85 +317,85 @@ body {
 #post-challenge {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
 #post-challenge p {
   text-align: center;
-  Margin: 5% -84% 5% -84%;
-  background: #F1EFEF;
+  margin: 5% -84% 5% -84%;
+  background: #f1efef;
   padding: 4% 6% 4% 6%;
 }
 #post-role {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
 #post-role p {
   text-align: center;
-  Margin: 5% 6% 5% 6%;
-  background: #F1EFEF;
+  margin: 5% 6% 5% 6%;
+  background: #f1efef;
   padding: 2% 1% 2% 1%;
 }
 #post-visuals {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
 #post-visuals p {
   text-align: center;
-  Margin: 5% -19% 5% -19%;
-  background: #F1EFEF;
+  margin: 5% -19% 5% -19%;
+  background: #f1efef;
 }
 #post-extra {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
 #post-extra p {
   text-align: center;
-  Margin: 5% -19% 5% -19%;
-  background: #F1EFEF;
-  padding: 2% 5% 2% 5%;he yoga 
+  margin: 5% -19% 5% -19%;
+  background: #f1efef;
+  padding: 2% 5% 2% 5%;
 }
 #post-closing {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
 #post-closing p {
   text-align: center;
-  Margin: 5% -19% 5% -19%;
-  background: #F1EFEF;
+  margin: 5% -19% 5% -19%;
+  background: #f1efef;
   padding: 2% 5% 2% 5%;
 }
 #post-closing2 {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
-#post-closing2 p{
+#post-closing2 p {
   text-align: center;
-  Margin: 5% -19% 5% -19%;
-  background: #F1EFEF;
+  margin: 5% -19% 5% -19%;
+  background: #f1efef;
   padding: 2% 5% 2% 5%;
 }
 #post-closing3 {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
-#post-closing3 p{
+#post-closing3 p {
   text-align: center;
-  Margin: 5% -5% 5% -5%;
-  background: #F1EFEF;
+  margin: 5% -5% 5% -5%;
+  background: #f1efef;
   padding: 2% 5% 2% 5%;
 }
 #post-closing4 {
   display: flex;
   justify-content: center;
-  Align-items: center;
+  align-items: center;
 }
-#post-closing4 picture img{
+#post-closing4 picture img {
   padding: 3% 0 5% 0;
 }
 
