@@ -571,6 +571,10 @@ html {
 /*-----M O B I L E-----*/
 /* @media 576 */
 @media screen and (max-width: 576px) {
+  h2,
+  h3 {
+    font-size: 1.4rem;
+  }
   .hamburger,
   .toggle-menu {
     display: block;
@@ -697,6 +701,7 @@ html {
 .bot {
 }
 .cta {
+  text-align: center;
 }
 .bot-nav {
 }
