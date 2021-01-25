@@ -325,6 +325,9 @@ html {
   display: flex;
   justify-content: center;
 }
+.post picture img {
+  margin: 0 auto;
+}
 #post-challenge {
   display: flex;
   justify-content: center;
